@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'Geizerr';
+    src: url(assets/fonts/Geizer.ttf.woff);
+}
+
+body{
+    font-family: "Montserrat";
+}
+
+a {
+    color: #ac8c53;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Geizerr';
+}
+
+.navbar-menu {
+    background-color: #0e181b;
+}
+
+.navbar-menu a {
+    font-family: "Montserrat";
+    color: #fff;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #ac8c53;
+}
+
+.navbar-menu a:hover {
+    color: #ac8c53;
+}
+
+#heroCarousel {
+    margin-bottom: 100px;
+}
+
+.merch {
+    margin-bottom: 100px;
+}
+
+.merch .btn {
+    background-color: #518f9e;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.merch .btn:hover {
+    background-color: #ac8c53;
+    color: #0e181b;
+    font-weight: 500;
+}
+
+.navbar-brand img:hover {
+    box-shadow: 0 5px 15px rgba(252, 252, 252, 0.4);
+    transition: cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.footer {
+    background-color: #0e181b;
+    padding: 70px;
+}
+
+.footer h3 {
+    font-family: 'Geizerr';
+}
+
+.footer li {
+    list-style-type: none;
+}
+
+.footer ul {
+    padding-left: 0 !important;
+}
+
+.footer li i {
+    font-size: 30px;
+    padding: 0 15px;
+}
+
+.footer li a {
+    font-size: 20px;
+    padding: 0 15px;
+}
+
+
+.team_title p{
+    font-family: 'Geizerr';
+    font-size: 70px;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    color: white;
+    
+}
+
+label {
+    font-family: "Montserrat";
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    align-self: center;
+    margin-left: 35px;
+}
+
+.column_social label{
+    font-family: "Montserrat";
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    align-self: center;
+    margin-left: 0px;
+}
+
+
+.column_team {
+    float: left;
+    width: 350px;
+    height: 300px;
+    padding: 0 20px;
+}
+
+.column_icon {
+    float: left;
+    width: 550px;
+    height: 700px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 20px;
+}
+
+.column_social {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-bottom: 0px;
+    border: none;
+    border-radius: 150px;
+    margin-left: 0px;
+    
+}
+
+.row_team {
+    margin: auto;
+    width: 1200px;
+    margin-left: 410px;
+    margin-top: 50px;
+}
+
+.row_team2{
+    margin: auto;
+    width: 1200px;
+    margin-left: 410px;
+    margin-top: 50px;
+    margin-bottom: 300px;
+}
+
+.row_team3 {
+    margin: auto;
+    width: 1900px;
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-left: 95px;
+}
+
+.row_team3:hover .column_icon{
+    filter: blur(3px);
+}
+
+.row_team3 .column_icon:hover{
+    filter:blur(0px);
+}
+.row_socials{
+    margin: auto;
+    width: 1900px;
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-left: 250px;
+    padding-bottom: 650px;
+}
+
+.row_team4 {
+    margin: auto;
+    width: 1900px;
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding-left: 95px;
+}
+
+.row_team:after {
+    content: "";
+    display: table;
+    clear: both;
+    justify-content: center;
+}
+
+.row_team2:after {
+    content: "";
+    display: table;
+    clear: both;
+    justify-content: center;
+}
+
+.row_team3:after {
+    content: "";
+    display: table;
+    clear: both;
+    justify-content: center;
+}
+
+.row_team4:after {
+    content: "";
+    display: table;
+    clear: both;
+    justify-content: center;
+}
+
+.container_team {
+    justify-content: center;
+    background-color: #222e31;
+    height: 1300px;
+    width: auto;
+}
+
+.container_icon {
+    justify-content: center;
+    background-color: #222e31;
+    height: 1800px;
+    width: auto;
+}
+
+.container_socials {
+    justify-content: center;
+    background-color: #222e31;
+    height: 1000px;
+    width: auto;
+}
+
+.about-section {
+    height:auto;
+    width: auto;
+    padding: 85px;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    text-align: center;
+    background-color:#222e31;
+    color: #ac8c53;
+}
+
+.column_icon {
+    float: left;
+    width: 550px;
+    height: 700px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 20px;
+    
+}
+
+
+
